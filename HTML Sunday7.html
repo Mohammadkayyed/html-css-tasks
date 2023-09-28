@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .container {
+            
+            background-color: rgb(176, 233, 4);
+            width: 100%;
+            display: grid;
+            justify-content: center;
+
+        }
+
+        .calculator {
+            margin-top: 25px;
+            border: 1px solid rgb(7, 202, 202);
+            border-radius: 15px;
+            background-color: rgb(7, 202, 202);
+            display: grid;
+            justify-content: space-between;
+
+        }
+
+        .header {
+            margin: 10px;
+            width: 350px;
+            border: 1px solid rgb(255, 255, 255);
+            height: 60px;
+            background-color: rgb(222, 232, 181);
+            box-shadow: 0px 1px 4px 1px rgb(73, 71, 71);
+        }
+
+        .square {
+            text-align: center;
+            display: grid;
+            grid-template-columns: 75px 75px 75px 75px;
+            row-gap: 20px;
+            column-gap: 10px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 1px solid rgb(7, 202, 202);
+
+
+        }
+
+        .s1 {
+            border: 1px solid white;
+            background-color: rgb(255, 255, 255);
+            line-height: 60px;
+            box-shadow: 0px 0px 6px 1px rgb(105, 104, 105);
+            font-weight: bold;
+        }
+        .s2{
+            border: 1px solid rgb(255, 0, 0);
+            background-color: rgb(255, 0, 0);
+            line-height: 60px;
+            box-shadow: 0px 0px 6px 1px rgb(105, 104, 105);
+            font-weight: bold;
+
+        }
+        .s3 {
+            border: 1px solid rgb(213, 213, 0);
+            background-color: rgb(213, 213, 0);
+            line-height: 60px;
+            box-shadow: 0px 0px 6px 1px rgb(105, 104, 105);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="header"></div>
+            <div class="square">
+                <div class="s1">1</div>
+                <div class="s1">2</div>
+                <div class="s1">3</div>
+                <div class="s3">+</div>
+                <div class="s1">4</div>
+                <div class="s1">5</div>
+                <div class="s1">6</div>
+                <div class="s3">-</div>
+                <div class="s1">7</div>
+                <div class="s1">8</div>
+                <div class="s1">9</div>
+                <div class="s3">*</div>
+                <div class="s2">C</div>
+                <div class="s1">0</div>
+                <div class="s1">=</div>
+                <div class="s3">/</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
